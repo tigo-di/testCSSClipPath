@@ -1,0 +1,71 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+body {
+  background-color: #151d27;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  min-height: 350px;
+  position: relative;
+  top: -150px;
+}
+
+h1 {
+  align-self:baseline;
+  font-style: italic;
+  color: aliceblue;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 350px;
+}
+
+nav {
+  align-self: flex-start;
+  background: #09111a;
+  min-height: 42px;
+  width: 100%;
+}
+
+span.majoras {
+  background: url(majoras.png) no-repeat;
+  background-size: 100%;
+  height: 350px;
+  overflow: visible;
+  position: absolute;
+  right: 15%;
+  top:-190px;
+  width: 350px;
+  z-index: 9;
+}
+
+section {
+  min-height: 700px;
+}
+
+section.featuredOne {
+  background: #f85720 url(goku.jpg) no-repeat right 0;
+  background-size: 100%;
+  clip-path: polygon(0 19%, 100% 0, 100% 100%, 0% 100%);
+}
+
+section.featuredTwo {
+  background: #13863a url(mario.png) no-repeat right -10px;
+  background-size: 40%;
+  clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
+  position:relative;
+  top: -150px;
+}
